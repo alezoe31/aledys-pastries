@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aledys Pastries</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #f8f3ed;
+      color: #4b3025;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+      background-color: #ead9c8;
+    }
+
+    h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Arial, sans-serif;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background-color: #6b4635;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-family: Arial, sans-serif;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .desserts {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      width: 220px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      padding: 25px;
+      background-color: #ead9c8;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Aledys Pastries</h1>
+    <p>Homemade desserts made with love 🤎</p>
+    <a class="button" href="#menu">View Menu</a>
+  </header>
+
+  <section class="section" id="menu">
+    <h2>Our Treats</h2>
+
+    <div class="desserts">
+
+      <div class="card">
+        <h3>Brownies</h3>
+        <p>Rich, fudgy and delicious.</p>
+      </div>
+
+      <div class="card">
+        <h3>Brookies</h3>
+        <p>A delicious brownie + cookie combination.</p>
+      </div>
+
+      <div class="card">
+        <h3>Cookie Cakes</h3>
+        <p>Custom treats made for your special moments.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Place an Order</h2>
+    <p>Message us to order your favorite treats.</p>
+
+    <a class="button" href="#">
+      Order Now
+    </a>
+  </section>
+
+  <footer>
+    Aledys Pastries 🤎
+  </footer>
+
+</body>
+</html>
